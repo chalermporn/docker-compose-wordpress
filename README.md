@@ -10,3 +10,13 @@ This project was generated with [Wordpress](https://github.com/WordPress/WordPre
 
 ### 2. wordpress demo
 <p align="center"><img src ="./images/screencapture-localhost-wp-admin-index-php-2018-04-30-11_49_35.png" /></p>
+
+# Features
+- wordpress 4.9.5th
+- mysql 5.7
+- phpMyAdmin
+# Run Docker Compose 
+### build images
+ `$ docker-compose -f docker-compose.yml build --force-rm`
+### run 
+`$ docker-compose -f docker-compose.yml up`
