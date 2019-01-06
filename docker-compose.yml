@@ -3,7 +3,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:4.9.5
+    image: wordpress:5.0.2
     restart: always
     volumes:
       - ./wordpress/wp-content:/var/www/html/wp-content
