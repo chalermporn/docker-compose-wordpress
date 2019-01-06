@@ -5,7 +5,7 @@ This project was generated with [Wordpress](https://github.com/WordPress/WordPre
 ### 1. phpMyAdmin demo
 - http://localhost:8080
 - user: root
-- pass: p4ssw0rd
+- pass: p4ssw0rd!
 <p align="center"><img src ="./images/screencapture-localhost-8080-index-php-2018-04-30-11_49_22.png" /></p>
 
 
