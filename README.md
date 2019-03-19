@@ -1,4 +1,5 @@
 # Docker Compose Wordpress for Developer
+
 This project was generated with [Wordpress](https://github.com/WordPress/WordPress) version 4.9.5th
 ## Example
 
@@ -17,8 +18,14 @@ This project was generated with [Wordpress](https://github.com/WordPress/WordPre
 - wordpress 4.9.5th
 - mysql 5.7
 - phpMyAdmin
-# Run Docker Compose 
+
+## Run Docker Compose 
+
 ### build images
  `$ docker-compose -f docker-compose.yml build --force-rm`
+ 
 ### run 
 `$ docker-compose -f docker-compose.yml up`
+
+### docker exec
+`docker exec -it docker-compose-wordpress_wordpress_1 /bin/bash`
