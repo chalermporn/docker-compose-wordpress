@@ -28,4 +28,4 @@ This project was generated with [Wordpress](https://github.com/WordPress/WordPre
 `$ docker-compose -f docker-compose.yml up`
 
 ### docker exec
-`docker exec -it docker-compose-wordpress_wordpress_1 /bin/bash`
+`$ docker exec -it docker-compose-wordpress_wordpress_1 /bin/bash`
